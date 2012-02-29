@@ -8,11 +8,11 @@ A set of Haskell snippets to use with
 2. Tell yasnippet about the snippets, by adding them to your `init.el`
    file.
 
-    ;; Tell yasnippet where it can find the Haskell snippets
-    (setq yas/root-directory "~/emacs.d/mysnippets/haskell-mode")
-    
-    ;; Load the snippets
-    (yas/load-directory yas/root-directory)
+        ;; Tell yasnippet where it can find the Haskell snippets
+        (setq yas/root-directory "~/emacs.d/mysnippets/haskell-mode")
+        
+        ;; Load the snippets
+        (yas/load-directory yas/root-directory)
 
 ## Usage
 
